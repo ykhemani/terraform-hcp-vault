@@ -31,7 +31,7 @@ variable "vault_cluster_id" {
 variable "vault_cluster_public_endpoint" {
   type        = bool
   description = "Denotes that the cluster has a public endpoint."
-  default     = true
+  default     = false
 }
 
 variable "vault_cluster_tier" {
